@@ -1,11 +1,14 @@
-<script setup lang="ts"></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <h1>Mi primer aplicacion de Vue</h1>
+  <hr />
+
+  <MyCounter :value="1" />
+  <MyCounterScript :value="2" />
+  <MyCounterScript2 :value="3" />
 </template>
 
-<style scoped></style>
+<script lang="ts" setup>
+import MyCounter from './components/MyCounter.vue';
+import MyCounterScript from './components/MyCounterScript.vue';
+import MyCounterScript2 from './components/my-counter-script/MyCounterScript2.vue';
+</script>
