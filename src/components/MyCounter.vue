@@ -12,9 +12,9 @@
 </template>
 
 <script lang="ts" setup>
-import { useCounter } from '@/composables/useCounter';
+import { useCounter } from '@/composables/useCounter'
 
-const { counter, squareCounter } = useCounter();
+const { counter, squareCounter } = useCounter()
 // import { ref, computed } from 'vue';
 
 // definimos como variable el definir como queremos o de que tipo queremos que sea el valor y con esa estructura le decimos que obligatoriamente tiene que ser un numero

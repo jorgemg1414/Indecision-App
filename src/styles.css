@@ -1,4 +1,6 @@
-html,
+@import 'tailwindcss';
+
+/* html,
 body {
   margin: 0;
   background-color: grey;
@@ -6,4 +8,4 @@ body {
 
 button {
   padding: 5px;
-}
+} */
