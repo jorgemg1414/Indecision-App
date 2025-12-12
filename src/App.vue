@@ -3,5 +3,5 @@
 </template>
 
 <script lang="ts" setup>
-import IndecisionView from '@/views/IndecisionView.vue'
+import IndecisionView from '@/views/IndecisionView.vue';
 </script>
