@@ -11,6 +11,8 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
+    "test:unit": "vitest",
+    "test": "vitest --watch=false",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix --cache",
     "format": "prettier --write src/"
@@ -37,6 +39,7 @@
     "typescript": "~5.9.0",
     "vite": "npm:rolldown-vite@latest",
     "vite-plugin-vue-devtools": "^8.0.3",
+    "vitest": "^4.0.16",
     "vue-tsc": "^3.1.1"
   },
   "description": "This template should help get you started developing with Vue 3 in Vite.",
